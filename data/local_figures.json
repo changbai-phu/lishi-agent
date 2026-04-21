@@ -234,6 +234,60 @@
     "event": "代汉称帝，建立曹魏"
   },
   {
+    "id": "zhou_yu",
+    "name": "周瑜",
+    "dynasty": "三国",
+    "role": "将军",
+    "birth_year": 175,
+    "death_year": 210,
+    "event": "火烧赤壁"
+  },
+  {
+    "id": "xun_yu",
+    "name": "荀彧",
+    "dynasty": "三国",
+    "role": "政治家",
+    "birth_year": 163,
+    "death_year": 212,
+    "event": "曹操首席谋士"
+  },
+  {
+    "id": "guo_jia",
+    "name": "郭嘉",
+    "dynasty": "三国",
+    "role": "政治家",
+    "birth_year": 170,
+    "death_year": 207,
+    "event": "曹操重要谋士"
+  },
+  {
+    "id": "zhuge_liang",
+    "name": "诸葛亮",
+    "dynasty": "三国",
+    "role": "政治家",
+    "birth_year": 181,
+    "death_year": 234,
+    "event": "蜀汉丞相，出师表"
+  },
+  {
+    "id": "lu_sun",
+    "name": "陆逊",
+    "dynasty": "三国",
+    "role": "将军",
+    "birth_year": 183,
+    "death_year": 245,
+    "event": "火烧连营"
+  },
+  {
+    "id": "lady_sun",
+    "name": "孙尚香",
+    "dynasty": "三国",
+    "role": "政治家",
+    "birth_year": 190,
+    "death_year": null,
+    "event": "刘备夫人"
+  },
+  {
     "id": "sima_yan",
     "name": "司马炎",
     "dynasty": "晋朝",

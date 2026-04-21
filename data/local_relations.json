@@ -1,0 +1,142 @@
+[
+  {
+    "id": "relation_001",
+    "source": "liu_bei",
+    "target": "guan_yu",
+    "type": "ally",
+    "description": "桃园三结义，异姓兄弟"
+  },
+  {
+    "id": "relation_002",
+    "source": "liu_bei",
+    "target": "zhang_fei",
+    "type": "ally",
+    "description": "桃园三结义，异姓兄弟"
+  },
+  {
+    "id": "relation_003",
+    "source": "guan_yu",
+    "target": "zhang_fei",
+    "type": "ally",
+    "description": "桃园三结义，异姓兄弟"
+  },
+  {
+    "id": "relation_004",
+    "source": "liu_bei",
+    "target": "sun_quan",
+    "type": "ally",
+    "description": "孙刘联盟，共同抗曹"
+  },
+  {
+    "id": "relation_005",
+    "source": "liu_bei",
+    "target": "sun_quan",
+    "type": "family_in_law",
+    "description": "刘备娶孙尚香，结为姻亲"
+  },
+  {
+    "id": "relation_006",
+    "source": "cao_cao",
+    "target": "cao_pi",
+    "type": "family",
+    "description": "父子关系，曹丕为曹操之子"
+  },
+  {
+    "id": "relation_007",
+    "source": "cao_cao",
+    "target": "liu_bei",
+    "type": "enemy",
+    "description": "三国对立，曹操与刘备为政敌"
+  },
+  {
+    "id": "relation_008",
+    "source": "cao_cao",
+    "target": "sun_quan",
+    "type": "enemy",
+    "description": "三国对立，曹操与孙权为政敌"
+  },
+  {
+    "id": "relation_009",
+    "source": "liu_bei",
+    "target": "cao_cao",
+    "type": "enemy",
+    "description": "三国对立，刘备与曹操为政敌"
+  },
+  {
+    "id": "relation_010",
+    "source": "guan_yu",
+    "target": "cao_cao",
+    "type": "enemy",
+    "description": "关羽水淹七军，大败曹操"
+  },
+  {
+    "id": "relation_011",
+    "source": "sun_quan",
+    "target": "liu_bei",
+    "type": "enemy",
+    "description": "荆州之争，后反目成仇"
+  },
+  {
+    "id": "relation_012",
+    "source": "guan_yu",
+    "target": "sun_quan",
+    "type": "enemy",
+    "description": "孙权夺荆州，杀关羽"
+  },
+  {
+    "id": "relation_013",
+    "source": "zhang_fei",
+    "target": "cao_cao",
+    "type": "enemy",
+    "description": "张飞长坂坡喝退曹军"
+  },
+  {
+    "id": "relation_014",
+    "source": "cao_cao",
+    "target": "guan_yu",
+    "type": "respect",
+    "description": "曹操敬重关羽，拜为上将军"
+  },
+  {
+    "id": "relation_015",
+    "source": "liu_bei",
+    "target": "zhuge_liang",
+    "type": "advisor",
+    "description": "三顾茅庐，诸葛亮辅佐刘备"
+  },
+  {
+    "id": "relation_016",
+    "source": "sun_quan",
+    "target": "zhou_yu",
+    "type": "advisor",
+    "description": "周瑜辅佐孙权"
+  },
+  {
+    "id": "relation_017",
+    "source": "cao_cao",
+    "target": "xun_yu",
+    "type": "advisor",
+    "description": "荀彧曹操首席谋士"
+  },
+  {
+    "id": "relation_018",
+    "source": "cao_cao",
+    "target": "guo_jia",
+    "type": "advisor",
+    "description": "郭嘉曹操重要谋士"
+  },
+  {
+    "id": "relation_019",
+    "source": "sun_quan",
+    "target": "lu_sun",
+    "type": "family",
+    "description": "陆逊为孙权托孤重臣"
+  },
+  {
+    "id": "relation_020",
+    "source": "liu_bei",
+    "target": "lady_sun",
+    "type": "family_in_law",
+    "description": "刘备娶孙尚香为妻"
+  }
+]

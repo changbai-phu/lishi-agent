@@ -9,7 +9,7 @@ from pathlib import Path
 # Add parent directory to path for imports
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from core.storage import get_figures_by_dynasty, load_figures
+from core.storage import get_figures_by_dynasty, load_figures, get_relations, get_person_by_id
 
 
 def format_markdown_table(figures: list[dict]) -> str:
@@ -100,8 +100,53 @@ def main():
         type=str,
         help="Export to output/ directory with specified filename"
     )
+    parser.add_argument(
+        "--person",
+        type=str,
+        help="Query person by ID to show their relations (e.g., liu_bei)"
+    )
+    parser.add_argument(
+        "--relations",
+        action="store_true",
+        help="Show relations for the person specified with --person"
+    )
     
     args = parser.parse_args()
+    
+    # Handle person relation queries
+    if args.person and args.relations:
+        person = get_person_by_id(args.person)
+        if not person:
+            print(f"Person '{args.person}' not found.")
+            return
+        
+        print(f"## {person.get('name')} ({person.get('dynasty')}) - {person.get('role')}")
+        print()
+        
+        relations = get_relations(args.person)
+        if not relations:
+            print("No relations found.")
+            return
+        
+        # Group by relation type
+        relation_types = {}
+        for r in relations:
+            rtype = r.get("type", "unknown")
+            if rtype not in relation_types:
+                relation_types[rtype] = []
+            relation_types[rtype].append(r)
+        
+        # Display relations
+        for rtype, rels in relation_types.items():
+            print(f"### {rtype}")
+            for r in rels:
+                other_id = r.get("target") if r.get("source") == args.person else r.get("source")
+                other_person = get_person_by_id(other_id)
+                other_name = other_person.get("name") if other_person else other_id
+                desc = r.get("description", "")
+                print(f"- **{other_name}**: {desc}")
+            print()
+        return
     
     if args.dynasties:
         # Multiple dynasties (comma-separated)
