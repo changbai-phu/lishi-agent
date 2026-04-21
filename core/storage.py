@@ -74,16 +74,16 @@ def get_relations(person_id: str) -> List[Dict]:
 
 
 def get_person_by_id(person_id: str) -> Optional[Dict]:
-    """Get a person by their ID.
+    """Get a person by their ID or Chinese name.
     
     Args:
-        person_id: The figure ID to search for.
+        person_id: The figure ID (e.g., "liu_bei") or Chinese name (e.g., "刘备") to search for.
     
     Returns:
         Figure dictionary if found, None otherwise.
     """
     figures = load_figures()
     for f in figures:
-        if f.get("id") == person_id:
+        if f.get("id") == person_id or f.get("name") == person_id:
             return f
     return None

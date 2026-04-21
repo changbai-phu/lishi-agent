@@ -120,10 +120,13 @@ def main():
             print(f"Person '{args.person}' not found.")
             return
         
+        # Get the person's ID (could be Chinese name or English ID)
+        person_id = person.get("id")
+        
         print(f"## {person.get('name')} ({person.get('dynasty')}) - {person.get('role')}")
         print()
         
-        relations = get_relations(args.person)
+        relations = get_relations(person_id)
         if not relations:
             print("No relations found.")
             return
@@ -140,7 +143,7 @@ def main():
         for rtype, rels in relation_types.items():
             print(f"### {rtype}")
             for r in rels:
-                other_id = r.get("target") if r.get("source") == args.person else r.get("source")
+                other_id = r.get("target") if r.get("source") == person_id else r.get("source")
                 other_person = get_person_by_id(other_id)
                 other_name = other_person.get("name") if other_person else other_id
                 desc = r.get("description", "")
