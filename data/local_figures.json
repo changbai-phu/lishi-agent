@@ -1,0 +1,272 @@
+[
+  {
+    "id": "liu_bei",
+    "name": "刘备",
+    "dynasty": "三国",
+    "role": "皇帝",
+    "birth_year": 161,
+    "death_year": 223,
+    "event": "建立蜀汉"
+  },
+  {
+    "id": "guan_yu",
+    "name": "关羽",
+    "dynasty": "三国",
+    "role": "将军",
+    "birth_year": 160,
+    "death_year": 220,
+    "event": "水淹七军"
+  },
+  {
+    "id": "zhang_fei",
+    "name": "张飞",
+    "dynasty": "三国",
+    "role": "将军",
+    "birth_year": 165,
+    "death_year": 221,
+    "event": "长坂坡喝退曹军"
+  },
+  {
+    "id": "cao_cao",
+    "name": "曹操",
+    "dynasty": "三国",
+    "role": "政治家/军事家",
+    "birth_year": 155,
+    "death_year": 220,
+    "event": "统一北方"
+  },
+  {
+    "id": "sun_quan",
+    "name": "孙权",
+    "dynasty": "三国",
+    "role": "皇帝",
+    "birth_year": 182,
+    "death_year": 252,
+    "event": "建立东吴"
+  },
+  {
+    "id": "li_shi_min",
+    "name": "李世民",
+    "dynasty": "唐朝",
+    "role": "皇帝",
+    "birth_year": 598,
+    "death_year": 649,
+    "event": "玄武门之变，贞观之治"
+  },
+  {
+    "id": "wu_zetian",
+    "name": "武则天",
+    "dynasty": "唐朝",
+    "role": "皇帝",
+    "birth_year": 624,
+    "death_year": 705,
+    "event": "中国历史上唯一的女皇帝"
+  },
+  {
+    "id": "li_bai",
+    "name": "李白",
+    "dynasty": "唐朝",
+    "role": "诗人",
+    "birth_year": 701,
+    "death_year": 762,
+    "event": "诗仙"
+  },
+  {
+    "id": "zhu_yuan_zhang",
+    "name": "朱元璋",
+    "dynasty": "明朝",
+    "role": "皇帝",
+    "birth_year": 1328,
+    "death_year": 1398,
+    "event": "建立明朝"
+  },
+  {
+    "id": "zhu_di",
+    "name": "朱棣",
+    "dynasty": "明朝",
+    "role": "皇帝",
+    "birth_year": 1360,
+    "death_year": 1424,
+    "event": "靖难之役，迁都北京"
+  },
+  {
+    "id": "wang_yang_ming",
+    "name": "王阳明",
+    "dynasty": "明朝",
+    "role": "思想家",
+    "birth_year": 1472,
+    "death_year": 1529,
+    "event": "心学集大成者"
+  },
+  {
+    "id": "yu_the_great",
+    "name": "大禹",
+    "dynasty": "夏",
+    "role": "帝王",
+    "birth_year": -2100,
+    "death_year": -2000,
+    "event": "治水有功， 建立夏朝"
+  },
+  {
+    "id": "qi",
+    "name": "启",
+    "dynasty": "夏",
+    "role": "帝王",
+    "birth_year": -2000,
+    "death_year": -1950,
+    "event": "建立世袭制"
+  },
+  {
+    "id": "jie",
+    "name": "桀",
+    "dynasty": "夏",
+    "role": "帝王",
+    "birth_year": -1700,
+    "death_year": -1600,
+    "event": "夏朝末代君主"
+  },
+  {
+    "id": "tang",
+    "name": "汤",
+    "dynasty": "商",
+    "role": "帝王",
+    "birth_year": -1675,
+    "death_year": -1587,
+    "event": "建立商朝"
+  },
+  {
+    "id": "pan_geng",
+    "name": "盘庚",
+    "dynasty": "商",
+    "role": "帝王",
+    "birth_year": -1400,
+    "death_year": -1370,
+    "event": "迁都于殷"
+  },
+  {
+    "id": "zhou_wang",
+    "name": "周文王",
+    "dynasty": "周",
+    "role": "帝王",
+    "birth_year": -1155,
+    "death_year": -1056,
+    "event": "演周易，灭商"
+  },
+  {
+    "id": "zhou_wu_wang",
+    "name": "周武王",
+    "dynasty": "周",
+    "role": "帝王",
+    "birth_year": -1087,
+    "death_year": -1043,
+    "event": "伐纣灭商，建立周朝"
+  },
+  {
+    "id": "kong_zi",
+    "name": "孔子",
+    "dynasty": "春秋",
+    "role": "思想家",
+    "birth_year": -551,
+    "death_year": -479,
+    "event": "儒家学派创始人"
+  },
+  {
+    "id": "sun_wu",
+    "name": "孙武",
+    "dynasty": "春秋",
+    "role": "军事家",
+    "birth_year": -545,
+    "death_year": -470,
+    "event": "著《孙子兵法》"
+  },
+  {
+    "id": "bi_chen",
+    "name": "范蠡",
+    "dynasty": "春秋",
+    "role": "政治家",
+    "birth_year": -536,
+    "death_year": -448,
+    "event": "辅佐越王勾践灭吴"
+  },
+  {
+    "id": "qin_shi_huang",
+    "name": "秦始皇",
+    "dynasty": "秦",
+    "role": "皇帝",
+    "birth_year": -259,
+    "death_year": -210,
+    "event": "统一六国，建立秦朝"
+  },
+  {
+    "id": "li_si",
+    "name": "李斯",
+    "dynasty": "秦",
+    "role": "政治家",
+    "birth_year": -284,
+    "death_year": -208,
+    "event": "秦朝丞相，统一文字"
+  },
+  {
+    "id": "han_gao_zu",
+    "name": "刘邦",
+    "dynasty": "汉",
+    "role": "皇帝",
+    "birth_year": -256,
+    "death_year": -195,
+    "event": "建立汉朝"
+  },
+  {
+    "id": "han_wu_di",
+    "name": "汉武帝",
+    "dynasty": "汉",
+    "role": "皇帝",
+    "birth_year": -156,
+    "death_year": -87,
+    "event": "开疆拓土，罢黜百家"
+  },
+  {
+    "id": "zhang_qian",
+    "name": "张骞",
+    "dynasty": "汉",
+    "role": "探险家",
+    "birth_year": -164,
+    "death_year": -114,
+    "event": "出使西域，开辟丝绸之路"
+  },
+  {
+    "id": "sima_qian",
+    "name": "司马迁",
+    "dynasty": "汉",
+    "role": "史学家",
+    "birth_year": -145,
+    "death_year": -86,
+    "event": "著《史记》"
+  },
+  {
+    "id": "bai_qi",
+    "name": "白起",
+    "dynasty": "战国",
+    "role": "军事家",
+    "birth_year": -332,
+    "death_year": -257,
+    "event": "战国四大名将之一"
+  },
+  {
+    "id": "lian_po",
+    "name": "廉颇",
+    "dynasty": "战国",
+    "role": "军事家",
+    "birth_year": -327,
+    "death_year": -243,
+    "event": "战国四大名将之一"
+  },
+  {
+    "id": "lin_xiang_ru",
+    "name": "蔺相如",
+    "dynasty": "战国",
+    "role": "政治家",
+    "birth_year": -329,
+    "death_year": -259,
+    "event": "完璧归赵"
+  }
+]
